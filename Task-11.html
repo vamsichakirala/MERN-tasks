@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 11</title>
+    <style>
+        .rev{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 2% 20%;
+            margin: 0 5%;
+            margin-top: 5%;
+            align-items: center;
+        }
+        .revanth{
+            justify-content: center;
+            padding: 2% 20%;
+            margin: 0 5%;
+            align-items: center;
+        }
+        .Username,.password{
+            width: 500px;
+            padding: 10px;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+        .Login{
+            width: 525px;
+            background-color: lightblue;
+            padding: 1%;
+        }
+        .cancel{
+            width: 80px;
+            padding: 1%;
+            background-color: red;
+        }
+        table{
+            border: 1px solid grey;
+            padding: 2px;
+            background-color: rgb(170, 169, 169);
+        }
+        td{
+            width: 250px;
+            padding: 2px;
+        }
+        .link{
+            text-align: right;
+        }
+        .Login:hover{
+            background-color: green;
+        }
+        .cancel:hover{
+            background-color: skyblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="rev">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbxurQ4ID4AxgcOJRVQ0KzhaTsl7jFOs3BgDu8V-P5qjPvaKLyJva4icEWeGR5ZgwT8rU&usqp=CAU"><br><br>
+        <div class="revanth">
+        <label class><b><i>User Name</i></b></label><br><br>
+        <input type="text" class="Username" name="Username" placeholder="Username"><br><br>
+        <label><b><i>Password</i></b></label><br><br>
+        <input type="password" class="password" name="password" placeholder="password"><br><br>
+        <button class="Login">Login</button><br><br>
+        <input type="checkbox" name="remember me" id="remember">Remember me<br><br>
+        <table>
+            <tr>
+                <td><button class="cancel">Cancel</button></td>
+                <td class="link"><a href="www.forgotpassword.com">Forgot Password?</a></td>
+            </tr>
+        </table>
+        </div>
+    </div>
+</body>
+</html>
